@@ -4,46 +4,121 @@
     <projectFile>BethanysPieShop/BethanysPieShop.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5122fb2-961c-4f52-9c11-580fa97e224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanysPieShop.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/ICategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/IPieRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/MockCategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/MockPieRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/Pie.cs" afterDir="false" />
+    <list default="true" id="d5122fb2-961c-4f52-9c11-580fa97e224b" name="Default Changelist" comment="First">
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Controllers/PieController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Migrations/20201210172623_InitialMigration.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Migrations/20201210172623_InitialMigration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Migrations/20201210173234_SeedDataAdded.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Migrations/20201210173234_SeedDataAdded.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Migrations/20201210173629_NotesAddedOnPie.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Migrations/20201210173629_NotesAddedOnPie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/CategoryRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Models/PieRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/ViewModels/PieListViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Views/Pie/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Views/Pie/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/Images/bethanylogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/Images/carousel1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/Images/carousel2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/Images/carousel3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/Images/pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/content/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanysPieShop/wwwroot/lib/jquery/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanysPieShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/BethanysPieShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/BethanysPieShop.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/Models/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/Models/ICategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/Models/IPieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/Models/IPieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/Models/MockCategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/Models/MockCategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/Models/MockPieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/Models/MockPieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/Models/Pie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/Models/Pie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanysPieShop/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanysPieShop/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Template Manifest" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BethanysPieShop/Program.cs" />
-        <option value="$PROJECT_DIR$/BethanysPieShop/Startup.cs" />
         <option value="$PROJECT_DIR$/BethanysPieShop/Models/Category.cs" />
-        <option value="$PROJECT_DIR$/BethanysPieShop/Models/Pie.cs" />
-        <option value="$PROJECT_DIR$/BethanysPieShop/Models/IPieRepository.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/BethanysPieShop/Models/ICategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Models/IPieRepository.cs" />
         <option value="$PROJECT_DIR$/BethanysPieShop/Models/MockCategoryRepository.cs" />
         <option value="$PROJECT_DIR$/BethanysPieShop/Models/MockPieRepository.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/ViewModels/PieListViewModel.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Views/Shared/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Views/Shared/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/appsettings.json" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Models/PieRepository.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Models/CategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Models/AppDbContext.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Migrations/20201210173234_SeedDataAdded.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Models/Pie.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Startup.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Controllers/PieController.cs" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Views/Pie/Details.cshtml" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Views/Pie/List.cshtml" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/wwwroot/content/site.css" />
+        <option value="$PROJECT_DIR$/BethanysPieShop/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -58,9 +133,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BethanysPieShop">
@@ -103,71 +180,108 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607571026766</updated>
-      <workItem from="1607571027471" duration="5314000" />
+      <workItem from="1607571027471" duration="5658000" />
+      <workItem from="1607578545636" duration="137000" />
+      <workItem from="1607614182120" duration="1419000" />
+      <workItem from="1607615622990" duration="9245000" />
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1607577576394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607577576394</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First">
+      <created>1607577583596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607577583596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="57" key="#Inspection_severity" timestamp="1607574354645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="345" y="57" key="#Inspection_severity/0.0.1536.824@0.0.1536.824" timestamp="1607574354645" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607572563362">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607621313405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607572563362" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1607574324094">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607621313405" />
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1607624433570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607574324094" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1607574324094">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607624433570" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1607624433570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607574324094" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1607574324094">
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607624433570" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1607624433570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607574324094" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1607574324094">
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607624433570" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1607624433570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607574324094" />
-    <state x="599" y="3" key="RiderGenerateDialog" timestamp="1607577512249">
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607624433570" />
+    <state width="229" height="539" key="HiddenNamespacesPopup" timestamp="1607621319636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="599" y="3" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1607577512249" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1607574373737">
+    <state width="229" height="539" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1607621319636" />
+    <state x="599" y="3" key="RiderGenerateDialog" timestamp="1607620287371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607574373737" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607574317431">
+    <state x="599" y="3" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1607620287371" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1607615599513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607574317431" />
-    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607574307471">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607615599513" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607577660819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607574307471" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607577660819" />
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607615014044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607615014044" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1607573518200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
