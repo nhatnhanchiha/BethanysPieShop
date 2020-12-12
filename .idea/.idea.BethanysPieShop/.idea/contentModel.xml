@@ -10,18 +10,45 @@
       <e p="BethanysPieShop" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="IdentityHostingStartup.cs" t="Include" />
+            <e p="Pages" t="Include">
+              <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Account" t="Include">
+                <e p="_ViewImports.cshtml" t="Include" />
+                <e p="Login.cshtml" t="Include" />
+                <e p="Login.cshtml.cs" t="Include" />
+                <e p="Logout.cshtml" t="Include" />
+                <e p="Logout.cshtml.cs" t="Include" />
+                <e p="Register.cshtml" t="Include" />
+                <e p="Register.cshtml.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="BethanysPieShop.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Components" t="Include">
+          <e p="ShoppingCartSummary.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="OrderController.cs" t="Include" />
           <e p="PieController.cs" t="Include" />
+          <e p="ShoppingCartController.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20201210172623_InitialMigration.cs" t="Include" />
-          <e p="20201210172623_InitialMigration.Designer.cs" t="Include" />
-          <e p="20201210173234_SeedDataAdded.cs" t="Include" />
-          <e p="20201210173234_SeedDataAdded.Designer.cs" t="Include" />
-          <e p="20201210173629_NotesAddedOnPie.cs" t="Include" />
-          <e p="20201210173629_NotesAddedOnPie.Designer.cs" t="Include" />
+          <e p="20201211193147_InitialMigration.cs" t="Include" />
+          <e p="20201211193147_InitialMigration.Designer.cs" t="Include" />
+          <e p="20201212025137_CheckOutSystemAdded.cs" t="Include" />
+          <e p="20201212025137_CheckOutSystemAdded.Designer.cs" t="Include" />
+          <e p="20201212030325_FixedCheckOut.cs" t="Include" />
+          <e p="20201212030325_FixedCheckOut.Designer.cs" t="Include" />
+          <e p="20201212045605_IdentityAdded.cs" t="Include" />
+          <e p="20201212045605_IdentityAdded.Designer.cs" t="Include" />
           <e p="AppDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -29,11 +56,17 @@
           <e p="Category.cs" t="Include" />
           <e p="CategoryRepository.cs" t="Include" />
           <e p="ICategoryRepository.cs" t="Include" />
+          <e p="IOrderRepository.cs" t="Include" />
           <e p="IPieRepository.cs" t="Include" />
           <e p="MockCategoryRepository.cs" t="Include" />
           <e p="MockPieRepository.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="OrderDetail.cs" t="Include" />
+          <e p="OrderRepository.cs" t="Include" />
           <e p="Pie.cs" t="Include" />
           <e p="PieRepository.cs" t="Include" />
+          <e p="ShoppingCart.cs" t="Include" />
+          <e p="ShoppingCartItem.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -43,23 +76,45 @@
             </e>
           </e>
         </e>
+        <e p="Pages" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="ScaffoldingReadMe.txt" t="Include" />
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
+          <e p="HomeViewModel.cs" t="Include" />
           <e p="PieListViewModel.cs" t="Include" />
+          <e p="ShoppingCartViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="Checkout.cshtml" t="Include" />
+            <e p="CheckoutComplete.cshtml" t="Include" />
+          </e>
           <e p="Pie" t="Include">
             <e p="Details.cshtml" t="Include" />
             <e p="List.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
+            <e p="_Carousel.cshtml" t="Include" />
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
+            <e p="_PieCard.cshtml" t="Include" />
+            <e p="Components" t="Include">
+              <e p="ShoppingCartSummary" t="Include">
+                <e p="Default.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ShoppingCart" t="Include">
+            <e p="Index.cshtml" t="Include" />
           </e>
         </e>
         <e p="wwwroot" t="Include">
